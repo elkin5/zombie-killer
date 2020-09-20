@@ -2,14 +2,17 @@ package mundo;
 
 public interface ArmaConMunicion {
 
-	/**
-	 * obtiene la munición del arma en cuestión
-	 * @return munición
-	 */
-	byte getMunicion();
-	/**
-	 * cambia la munición del arma presente
-	 * @param municion
-	 */
-	void setMunicion(byte municion);
+  /**
+   * obtiene la municiï¿½n del arma en cuestiï¿½n
+   * 
+   * @return municiï¿½n
+   */
+  byte getMunicion();
+
+  /**
+   * cambia la municiï¿½n del arma presente
+   * 
+   * @param municion
+   */
+  void setMunicion(byte municion);
 }
