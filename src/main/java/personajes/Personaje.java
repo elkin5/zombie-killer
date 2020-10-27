@@ -8,6 +8,7 @@ import armamento.Cuchillo;
 import armamento.Granada;
 import armamento.M1911;
 import armamento.Remington;
+import patrones.ArmasFactoria;
 
 public class Personaje implements SerViviente, Serializable {
 
@@ -59,10 +60,12 @@ public class Personaje implements SerViviente, Serializable {
    */
   public Personaje() {
     salud = SALUD;
-    granadas = new Granada();
-    armaPrincipal = new M1911();
-    armaSecundaria = new Remington();
-    cuchillo = new Cuchillo();
+    ArmasFactoria factoria = new ArmasFactoria();
+   
+    granadas = (Granada) factoria.crearArma("granada");
+    armaPrincipal = (ArmaDeFuego) factoria.crearArma("m1911");
+    armaSecundaria = (ArmaDeFuego) factoria.crearArma("remington");
+    cuchillo = (Cuchillo) factoria.crearArma("cuchillo"); //XXX Cambiar
     // municion = principal.getLimBalas();
   }
 
