@@ -9,10 +9,10 @@ import javax.swing.JPanel;
 import javax.swing.JProgressBar;
 import javax.swing.plaf.basic.BasicRootPaneUI;
 
+import armamento.Granada;
+import armamento.Remington;
 import mundo.Boss;
-import mundo.Granada;
-import mundo.Remington;
-import mundo.Zombie;
+import personajes.Zombie;
 
 public class PanelAtributos extends JPanel {
 

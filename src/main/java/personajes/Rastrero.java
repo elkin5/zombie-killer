@@ -1,4 +1,6 @@
-package mundo;
+package personajes;
+
+import armamento.Remington;
 
 public class Rastrero extends Zombie {
 

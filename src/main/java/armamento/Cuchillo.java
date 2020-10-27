@@ -1,4 +1,4 @@
-package mundo;
+package armamento;
 
 public class Cuchillo extends Arma {
 

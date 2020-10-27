@@ -1,4 +1,4 @@
-package mundo;
+package armamento;
 
 public abstract class ArmaDeFuego extends Arma implements ArmaConMunicion {
 

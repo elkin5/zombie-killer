@@ -1,4 +1,4 @@
-package mundo;
+package armamento;
 
 import java.io.Serializable;
 

@@ -17,7 +17,11 @@ import javax.swing.*;
 import javax.swing.GroupLayout.Alignment;
 import javax.tools.Tool;
 
+import armamento.Arma;
+import armamento.ArmaDeFuego;
 import mundo.*;
+import personajes.Personaje;
+import personajes.Zombie;
 
 public class PanelCamp extends JPanel implements MouseListener, KeyListener {
 

@@ -1,4 +1,8 @@
-package mundo;
+package personajes;
+
+import armamento.Remington;
+import mundo.SeMueveEnZigzag;
+import mundo.SurvivorCamp;
 
 public class Caminante extends Zombie implements SeMueveEnZigzag {
 

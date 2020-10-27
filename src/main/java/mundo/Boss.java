@@ -1,5 +1,9 @@
 package mundo;
 
+import armamento.Granada;
+import armamento.Remington;
+import personajes.Enemigo;
+
 public class Boss extends Enemigo implements SeMueveEnZigzag {
 
   /**

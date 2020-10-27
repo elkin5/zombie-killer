@@ -1,4 +1,4 @@
-package mundo;
+package excepciones;
 
 public class DatosErroneosException extends Exception {
 

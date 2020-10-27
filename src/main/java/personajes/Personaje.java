@@ -1,6 +1,13 @@
-package mundo;
+package personajes;
 
 import java.io.Serializable;
+
+import armamento.Arma;
+import armamento.ArmaDeFuego;
+import armamento.Cuchillo;
+import armamento.Granada;
+import armamento.M1911;
+import armamento.Remington;
 
 public class Personaje implements SerViviente, Serializable {
 

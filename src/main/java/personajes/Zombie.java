@@ -1,4 +1,4 @@
-package mundo;
+package personajes;
 
 public abstract class Zombie extends Enemigo {
 

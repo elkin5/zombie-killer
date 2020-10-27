@@ -13,6 +13,18 @@ import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.Comparator;
 
+import armamento.Arma;
+import armamento.Cuchillo;
+import excepciones.DatosErroneosException;
+import excepciones.NombreInvalidoException;
+import personajes.Caminante;
+import personajes.Enemigo;
+import personajes.Personaje;
+import personajes.Rastrero;
+import personajes.Zombie;
+import tablero.ComparadorPuntajePorNombre;
+import tablero.Puntaje;
+
 public class SurvivorCamp implements Cloneable, Comparator<Puntaje> {
 
   /**

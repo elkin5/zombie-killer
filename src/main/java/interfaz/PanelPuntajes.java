@@ -18,7 +18,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-import mundo.Puntaje;
+import tablero.Puntaje;
 
 public class PanelPuntajes extends JPanel implements ActionListener {
 

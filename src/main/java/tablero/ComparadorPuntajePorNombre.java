@@ -1,4 +1,4 @@
-package mundo;
+package tablero;
 
 import java.util.Comparator;
 
