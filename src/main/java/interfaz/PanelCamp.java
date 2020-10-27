@@ -168,7 +168,7 @@ public class PanelCamp extends JPanel implements MouseListener, KeyListener {
 			arg0.drawImage(fondo, ataqueX - 33, ataqueY - 35, null);
 		}
 		if (matador.getCuchillo().getEstado().equals(Arma.CARGANDO)) {
-			fondo = Toolkit.getDefaultToolkit().getImage(getClass().getResource("/img/Fondo/puñalada.png"));
+			fondo = Toolkit.getDefaultToolkit().getImage(getClass().getResource("/img/Fondo/punalada.png"));
 			arg0.drawImage(fondo, ataqueX - 160, ataqueY - 30, null);
 		} else if (armaEquipada.getEstado().equals(ArmaDeFuego.RECARGANDO)) {
 			fondo = Toolkit.getDefaultToolkit().getImage(this.getClass()
@@ -193,7 +193,7 @@ public class PanelCamp extends JPanel implements MouseListener, KeyListener {
 		imagenesCargadas = new ImageIcon[205];
 		ImageIcon actual;
 		int contador = 0;
-		// 31 es la mayor cantidad de imagenes de una animación
+		// 31 es la mayor cantidad de imagenes de una animaciï¿½n
 		Formatter formato;
 		for (int i = 0; i <= 31; i++) {
 			// System.out.println("/img/Caminante/caminando/" +
@@ -229,7 +229,7 @@ public class PanelCamp extends JPanel implements MouseListener, KeyListener {
 						contador++;
 						formato = new Formatter();
 						actual = new ImageIcon(getClass()
-								.getResource("/img/Caminante/gruñendo/" + formato.format("%02d", i) + ".png"));
+								.getResource("/img/Caminante/grunendo/" + formato.format("%02d", i) + ".png"));
 						imagenesCargadas[contador] = actual;
 						contador++;
 						if (i <= 13) {

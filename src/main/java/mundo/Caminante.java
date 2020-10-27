@@ -2,7 +2,7 @@ package mundo;
 
 public class Caminante extends Zombie implements SeMueveEnZigzag {
 
-  public static final String GRUNIENDO = "gru�endo";
+  public static final String GRUNIENDO = "grunendo";
 
   private int direccionX;
   /**
