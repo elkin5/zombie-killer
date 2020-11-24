@@ -1,0 +1,9 @@
+
+B
+java:S1128	",Remove this unused import 'armamento.M1911'.(‡°Òš
+K
+java:S1128
+"0Remove this unused import 'armamento.Remington'.(Û›üªùÿÿÿÿ
+|
+java:S1845"aRename field "salud" to prevent any misunderstanding/clash with field "SALUD" defined on line 18.(×ÃŽÀÿÿÿÿÿ
+V	java:S125E"<This block of commented-out lines of code should be removed.(ø«¦þÿÿÿÿ

@@ -1,0 +1,56 @@
+
+‡
+java:S1319Ó"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(àñà£
+‡
+java:S1319í"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(­ª–
+†
+java:S1319‚"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(™—ö5
+c
+java:S2095«"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ã†¾Ó
+g
+java:S2095É"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(¥èÅÕ
+g
+java:S2095˜"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(ÂÒÕì
+b
+java:S2095’"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(º“–
+k
+java:S2095Ü"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(‹è“¥ùÿÿÿÿ
+e
+java:S2095ù"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(å‡êF
+F
+java:S3740ƒ"/Provide the parametrized type for this generic.(Ì¬“Ü
+i
+java:S1192Ú"SDefine a constant instead of duplicating this literal "/PartidasGuardadas" 4 times.(øò»L
+_
+java:S1192Ú"IDefine a constant instead of duplicating this literal "user.dir" 4 times.(øò»L
+E
+java:S1066‹"/Merge this if statement with the enclosing one.(ö…Ñ;
+K
+java:S1066ñ"/Merge this if statement with the enclosing one.(Öµ¡øÿÿÿÿ
+K
+java:S1066Ü"/Merge this if statement with the enclosing one.(€÷øÕùÿÿÿÿ
+\	java:S112ş"FDefine and throw a dedicated exception instead of using a generic one.(Î¢›‘
+a	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ŒÚ„§ÿÿÿÿÿ
+[	java:S112ƒ"FDefine and throw a dedicated exception instead of using a generic one.(á‰ë<
+a	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¯‹ó¨üÿÿÿÿ
+;
+java:S2157"%Add a "clone()" method to this class.(ÁŞÉ½
+H
+java:S1135X"2Complete the task associated to this TODO comment.(îŠè
+V	java:S125o"<This block of commented-out lines of code should be removed.(ü´”†øÿÿÿÿ
+N
+java:S1135"2Complete the task associated to this TODO comment.(Í¬üúøÿÿÿÿ
+E
+java:S2140Ï")Use "java.util.Random.nextInt()" instead.(§ÀëÇÿÿÿÿÿ
+i
+java:S3776ø"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(«Ã¿ó
+Y
+java:S1117ú"=Rename "personaje" which hides the field declared at line 73.(²Ç¢şÿÿÿÿ
+n
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(¯‹ó¨üÿÿÿÿ
+N
+java:S1135Ï"2Complete the task associated to this TODO comment.(ÎÍ¾¶ÿÿÿÿÿ
+I
+java:S1135î"2Complete the task associated to this TODO comment.(úüáÓ
+H
+java:S1135ş"2Complete the task associated to this TODO comment.(»æˆ!
